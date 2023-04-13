@@ -44,7 +44,7 @@ public class Pokemon {
         return descripcion;
     }
 
-    //Creacion de los setters
+    // Creacion de los setters
 
     public void setAltura(int nuevaAltura) {
         this.altura = nuevaAltura;
