@@ -57,4 +57,17 @@ public class Pokemon {
     public void setDescripcion(String nuevaDescripcion) {
         this.descripcion = nuevaDescripcion;
     }
+
+    // Modificacion del toString
+
+    @Override
+    public String toString() {
+        return nombre + "/n" +
+                tipo + "/n" +
+                " HT " + altura + "/n" +
+                " WT " + peso +
+                "------------------------------------------------" + "/n" +
+                descripcion;
+
+    }
 }
