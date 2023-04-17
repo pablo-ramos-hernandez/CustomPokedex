@@ -1,3 +1,5 @@
+package org.salesianos.Padre;
+
 public class Pokemon {
     protected String nombre;
     protected String tipo;
